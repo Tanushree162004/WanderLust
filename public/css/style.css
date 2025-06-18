@@ -1,0 +1,125 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif  !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+     flex: 1;
+}
+/* navbar */
+.navbar{
+     height: 5rem;
+     background-color: white;
+}
+
+.fa-location-arrow{
+     color: firebrick;
+     font-size: 2rem;
+}
+
+.nav-link{
+     color: #222222  !important;
+}
+
+/* footer */
+
+.f-info-link a {
+     text-decoration: none;
+     color: #222222;
+}
+
+.f-info-link a:hover {
+     text-decoration: underline;
+     
+}
+
+.f-info-link,
+.f-info-social,
+.f-info-brand {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.f-info-social i {
+     font-size: 1.2rem;
+     margin-right: 1rem;
+}
+
+.f-info {
+     text-align: center;
+     height: 8rem;
+     background-color: #ebebeb;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    align-items: space-evenly;
+}
+
+/* cards */
+.listing-card  {
+     border: none !important;
+     margin-bottom: 3rem;
+}
+
+.card-img-top {
+     border-radius: 1rem !important;
+     width: 100% !important;
+     object-fit: cover !important;
+}
+
+.card-body {
+     padding: 0 !important;
+}
+
+.card-text p {
+     font-weight: 400;
+}
+
+.listing-link {
+     text-decoration: none;
+}
+
+/* card effect */
+
+.card-img-overlay:hover {
+     opacity: 0.2;
+     background-color: white;
+}
+
+/* BUTTON */
+/* new page */
+.add-btn {
+     background: none !important;
+     background-color: firebrick !important;
+}
+
+/* edit page */
+
+.edit-btn {
+      background: none !important;
+     background-color: firebrick !important;
+}
+
+/* show page */
+
+.show-img {
+     height: 30vh;
+}
+
+.btns {
+     display: flex;
+}
+
+.show-card{
+     padding-right: 0%;
+     padding-left: 0%;
+}
+
+#map {
+     width: 80vh;
+     height: 400px;
+}
