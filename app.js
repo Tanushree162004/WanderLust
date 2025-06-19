@@ -80,7 +80,7 @@ cookie:{
 
 
 
-app.get("/", (req, res) => {
+app.get("/wanderlust-zvh6.onrender.com", (req, res) => {
   res.redirect("/listings");
 });
 
